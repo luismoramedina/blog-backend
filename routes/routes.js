@@ -1,10 +1,10 @@
 var appRouter = function(app) {
 
-    var postsMock = [
-        {"id": 1, "title": "Post A", "content": "Post A Content"},
-        {"id": 2, "title": "Post B", "content": "Post B Content"},
-        {"id": 3, "title": "Post C", "content": "Post C Content"}
-    ];
+    var postsMock = {
+        "1" : {"id": 1, "title": "Post A", "content": "Post A Content"},
+        "2" : {"id": 2, "title": "Post B", "content": "Post B Content"},
+        "3" : {"id": 3, "title": "Post C", "content": "Post C Content"}
+    };
 
     var commentsMock = [
         { "id": 1, "user": "dummy 1", "comment": "Bla bla bla bla bla bla bla", "datetime": "2016-11-22 12:15:03" },
