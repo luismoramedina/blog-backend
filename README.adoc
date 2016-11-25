@@ -1,0 +1,3 @@
+= Blog backend
+
+This is related to 'blog-angular2' repository. Check https://github.com/luismoramedina/blog-angular2[it]
